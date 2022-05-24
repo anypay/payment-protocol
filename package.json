@@ -1,0 +1,24 @@
+{
+  "name": "payment-protocol",
+  "version": "0.1.0",
+  "description": "JSON Payment Protocol Library",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anypay/payment-protocol.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anypay/payment-protocol/issues"
+  },
+  "homepage": "https://github.com/anypay/payment-protocol#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "tsc": "^2.0.4",
+    "typescript": "^4.6.4"
+  }
+}
