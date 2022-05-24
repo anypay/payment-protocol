@@ -21,8 +21,6 @@ export class TestClient {
 
     this.url = url
 
-    console.log("options.headers", options.headers)
-
     this.headers = options.headers || {}
 
   }
@@ -33,8 +31,6 @@ export class TestClient {
       'x-paypro-version': 2,
       'accept': 'application/payment-options'
     })
-
-    console.log('DA_HEAD', headers)
 
     let { result } = await this.supertest.inject({
       method: 'GET',

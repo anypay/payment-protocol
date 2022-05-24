@@ -1,3 +1,5 @@
 
-export { TestClient } from './test_client'
+import { TestClient } from './test_client'
+
+export { TestClient }
 
